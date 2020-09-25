@@ -5,3 +5,7 @@
       group: 
         name: ibm
         state: present
+    - name: add user
+      user:
+        name: test
+        state: present
