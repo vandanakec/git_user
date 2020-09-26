@@ -1,6 +1,7 @@
 [web]
 #system1
-localhost ansible_user=root ansible_ssh_pass=root
+#localhost ansible_user=root ansible_ssh_pass=root
+servera ansible_user=test ansible_ssh_pass=test
 [dev]
 #system3
 #system5

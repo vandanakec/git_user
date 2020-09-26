@@ -9,3 +9,7 @@
       user:
         name: test
         state: present
+    - name: add user
+      user: 
+        name: new
+        state: present
