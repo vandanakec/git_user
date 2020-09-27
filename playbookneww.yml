@@ -13,3 +13,9 @@
       user: 
         name: new
         state: present
+
+
+    - name: test user
+      user: 
+       name: testm
+       state: present 
