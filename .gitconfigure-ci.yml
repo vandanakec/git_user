@@ -1,0 +1,16 @@
+stages:
+  - build
+  - deploy
+  
+startbuild:
+  tag: ssh1
+  stage: build
+  script:
+     - echo "hi 1"
+     
+     
+startdeploy:
+  tag: ssh2
+  stage: deploy
+  script:
+     - echo "hi 2"
